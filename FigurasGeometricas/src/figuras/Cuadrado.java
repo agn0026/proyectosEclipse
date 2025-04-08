@@ -1,5 +1,11 @@
 package figuras;
 
+/**
+ * Clase que implementa un cuadrado y sus funciones
+ * 
+ * @author Adrián
+ */
+
 public class Cuadrado {
 	private double lado;
 	
