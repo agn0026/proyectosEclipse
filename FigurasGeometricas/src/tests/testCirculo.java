@@ -17,12 +17,12 @@ class testCirculo {
 		assertEquals(areaEsperada, areaObtenida);
 	}
 	
-	/*@Test
+	@Test
 	void testCalcularPerimetro() {
 		Circulo c1 = new Circulo (2);
-		double perimetroObtenida = c1.calcularPerimetro();
-		double areaEsperada = 8;
-		assertEquals(areaEsperada, perimetroObtenida);
-	}*/
+		double perimetroObtenido = Math.round(c1.calcularPerimetro()*100)/100;
+		double areaEsperada = Math.round(12.56*100)/100;
+		assertEquals(areaEsperada, perimetroObtenido);
+	}
 
 }
